@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(to right, rgba(41, 40, 40, 0.822), rgb(68, 67, 67))
+}
+.cuurency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.text{
+    margin-bottom: 10px;
+}
+.currencies{
+    margin-bottom: 15px;
+    
+}
+.currency{
+    background: url('images/image.jpg')no-repeat fixed;
+    padding: 40px;
+    border-radius: 20px;
+}
+.currency .text input{
+    width: 55.3em;
+    height: 4em;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: solid transparent;
+    border-bottom: 1px solid white;
+    
+    
+}
+.text label{
+position: relative;
+right: 87%;
+font-weight:600;
+transition: top 1s;
+
+}
+.text input{
+transition: 1s;
+}
+.text input:focus~label{
+top: -15px;
+
+}
+.currencies select{
+    background-color:  transparent;
+    color: white;
+    height: 2.5em;
+    width: 25em;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid transparent;
+   
+  
+}
+.currencies select option{
+    background-color: black;
+    border-bottom: 10px solid white;
+    
+
+}
+
+
+.exchange input{
+    margin-left: 11em;
+    background-color: rgba(27, 123, 233, 0.904);
+   border-radius: 7px;
+    width: 34em;
+    height: 3em;
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+.convert h2{
+    margin-top: 5em;
+    display:flex;
+    justify-content: center;
+}
+.currencies button{
+    width: 38px;
+    height: 35px;
+    background-color: transparent;
+   
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    color: aliceblue;
+}
+.currencies button:hover{
+    transform: translateY(-5px);
+    
+}
+.exchange input:hover{
+    transform: scale(1.1);
+}
+.exchange input:hover:active{
+    background-color: blue;
+   
+   
+}
+.convert h2{
+    color: aliceblue;
+}
+
